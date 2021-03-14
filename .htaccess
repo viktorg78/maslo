@@ -1,0 +1,11 @@
+AddDefaultCharset UTF-8
+RewriteEngine on
+#RewriteCond %{HTTPS} off
+#RewriteCond %{HTTP:X-Forwarded-Proto} !https
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteRule ^home?$ index.php [NC,L]
+RewriteRule ^oil?$ oil.php [NC,L]
+RewriteRule ^shipping?$ shipping.php [NC,L]
+RewriteRule ^purchase?$ purchase.php [NC,L]
+RewriteRule ^aboutus?$ aboutus.php [NC,L]
+RewriteRule ^tallk?$ tallk.php [NC,L]

@@ -1,0 +1,92 @@
+@media (max-width: 1850px) and (min-width: 1500px){
+body, html {
+	width: 100%;
+	padding: 0;
+	}
+}
+
+
+@media (max-width: 1499px) and (min-width: 1200px){
+body, html {
+	width: 100%;
+	padding: 0;
+	}
+header>div#hapka>div#hapka1>div#logo1{
+	font-size:2em;
+	}
+header>div#hapka>div#hapka1>div#logo1>p{
+	font-size:0.35em;
+	}
+header>div#hapka>div#hapka1>img{
+	width: 40px;
+	}
+
+header>div#hapka>div#hapka3>div#e_mail>span{
+	font-size:0.6em;	
+
+	}
+header>div#hapka>div#hapka3>div#e_mail{
+	font-size:1.2em;
+	}
+header>div#hapka>div#hapka3>div#e_mail>a{
+	font-size:0.7em;	
+	}	
+}
+
+@media (max-width: 1199px) and (min-width: 891px){
+body, html {
+	width: 100%;
+	padding: 0;
+	}
+header>div#hapka>div#hapka1>div#logo1{
+	font-size:2em;
+	}
+header>div#hapka>div#hapka1>div#logo1>p{
+	font-size:0.3em;
+	}
+header>div#hapka>div#hapka1>img{
+	width: 40px;
+	}
+
+header>div#hapka>div#hapka3>div#e_mail>span{
+	font-size:0.6em;	
+
+	}
+header>div#hapka>div#hapka3>div#e_mail{
+	font-size:1.2em;
+	}
+header>div#hapka>div#hapka3>div#e_mail>a{
+	font-size:0.7em;	
+	}	
+.knopka{
+	padding: 14px 7px;
+	font-size: 0.9em;
+	}
+#tallk{
+	font-size:0.6em;
+	}
+}
+
+@media (max-width: 890px){
+	body, html {
+	width: 100%;
+	padding: 0;
+	}
+header>div#hapka>div#hapka1>div#logo1{
+	font-size:2em;
+	}
+header>div#hapka>div#hapka1>div#logo1>p{
+	font-size:0.3em;
+	}
+header>div#hapka>div#hapka1>img{
+	width: 40px;
+	}
+header>div#hapka>div#hapka2, header>div#hapka>div#hapka3{
+	width:0;
+	display:none;
+	visibility: hidden;	
+	}
+header>div#hapka>div#hapka1{
+	width:100%;
+	}		
+}

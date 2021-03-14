@@ -1,0 +1,38 @@
+@media (max-width: 890px) and (min-width: 660px){
+	div#main>div#blok1>#bel1>img{
+	width: 45%;
+	}
+}
+
+@media (max-width: 659px) and (min-width: 580px){
+	div#main>div#blok1>#bel1>img{
+	width: 100%;
+	}
+	div#main>div#blok1>#bel1>h1{
+		font-size:2em;
+	}
+	div#main>div#blok1>#bel1>span{
+	font-size:1.1em;
+	}
+	div#main>div#blok1>#bel1{
+		padding-left:3%;
+	}
+}
+
+
+
+@media (max-width: 579px){
+	div#main>div#blok1>#bel1>img{
+	width: 100%;
+	}
+	div#main>div#blok1>#bel1>h1{
+		font-size:1.3em;
+	}
+	div#main>div#blok1>#bel1>span{
+	font-size:1em;
+	}
+	div#main>div#blok1>#bel1{
+		padding-left:3%;
+		font-size:0.8em;
+	}
+}

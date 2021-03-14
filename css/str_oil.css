@@ -1,0 +1,37 @@
+div#main>div#blok1{
+	float:left;
+	width:100%;
+	background-color:whitesmoke;
+	height:99%;
+	margin-top:1%;
+}
+div#main>div#blok1>#bel1{
+	float:left;
+	margin:1%;
+	width:96%;
+	padding:1%;
+	height:96%;
+	font-family: 'Montserrat', sans-serif;
+}
+div#main>div#blok1>#bel1>img{
+	float:right;
+	margin-left:1%;
+	margin-bottom:1%;
+	border-radius: 8px;
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+}
+div#main>div#blok1>#bel1>h1{
+	font-family: 'Montserrat', sans-serif;
+	color:#1f211b;
+}
+div#main>div#blok1>#bel1>span{
+	font-family: 'Source Sans Pro', sans-serif;
+	color:#1f211b;
+	font-size:1.3em;
+}
+div#main>div#blok1>#bel1>a{
+	color:#1f211b;
+}

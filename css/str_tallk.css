@@ -1,0 +1,75 @@
+#searchStr{
+	float:left;
+	width:100%;
+	text-align:center;
+	padding-top:1.5%;
+	padding-bottom:1.5%;
+}
+.te{
+	border: 1px solid #b1c918; /*цвет рамки*/
+	border-radius: 10px; /*закругление углов (общее)*/
+	-webkit-border-radius: 10px; /*закругление углов (Google Chrome)*/
+	-moz-border-radius: 10px; /*закругление углов (FireFox)*/
+	-khtml-border-radius: 10px; /*закругление углов (Safari)*/
+	background: #ffffff !important; /*желательно прописывать, так как в Chrome при сохранных данных оно может быть желтым*/
+	outline: none;  /*удаляет обводку в браузерах хром(желтая) и сафари(синяя)*/
+	color: #556A97; 
+	font-family: 'PT Sans', sans-serif;
+	text-align:center;
+	margin-bottom:1%;
+	font-size:2em;
+}
+#strsbmit{
+	border: 2px solid #b1c918;
+	outline: none;
+	background-color: #ebebeb;
+	border-radius: 10px; /*закругление углов (общее)*/
+	-webkit-border-radius: 10px; /*закругление углов (Google Chrome)*/
+	-moz-border-radius: 10px; /*закругление углов (FireFox)*/
+	-khtml-border-radius: 10px;
+	color: #b1c918;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:2px;
+	padding-bottom:2px;	
+	font-family: 'PT Sans', sans-serif;
+	font-size:2em;
+	cursor:pointer;
+	-moz-user-select: none;
+	-webkit-user-select: none;	
+}
+#strsbmit:hover{
+	border: 3px solid #b1c000;
+	padding-left:14px;
+	padding-right:14px;
+	padding-top:1px;
+	padding-bottom:1px;
+	color: #B5BDD0;
+}
+#searchText{
+	float:left;
+	width:100%;
+	text-align:center;
+	font-family: 'PT Sans', sans-serif;
+	font-size:2em;
+}
+.te1{
+	width: 30px;
+	height: 30px;
+	border: 1px solid #b1c918;
+	margin-right:8px;
+	vertical-align: middle;
+}
+table{
+margin:auto;
+border-collapse: collapse;
+border-top: 7px solid #fff;
+border-bottom: 7px solid #fff;
+}
+td{
+	font-family: 'Roboto Slab', serif;
+	text-align:left;
+	font-size:2em;
+	vertical-align: middle;
+	padding-bottom:4px;
+}

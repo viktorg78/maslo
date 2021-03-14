@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+	<loc>https://www.maslaszf.ru/</loc>
+	<lastmod>2019-04-23T10:32:17+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.maslaszf.ru/oil</loc>
+	<lastmod>2019-04-23T10:32:19+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.maslaszf.ru/shipping</loc>
+	<lastmod>2019-04-23T10:32:23+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.maslaszf.ru/purchase</loc>
+	<lastmod>2019-04-23T10:32:24+01:00</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.maslaszf.ru/aboutus</loc>
+	<lastmod>2019-04-23T10:32:25+01:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>1.0</priority>
+</url>
+</urlset>

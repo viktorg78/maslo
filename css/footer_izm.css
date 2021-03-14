@@ -1,0 +1,19 @@
+@media (max-width: 1100px) and (min-width: 783px){
+	#footer2{
+		width:0;
+		display:none;
+		visibility: hidden;	
+	}
+}
+@media (max-width: 782px){
+	#footer2{
+	width:0;
+	display:none;
+	visibility: hidden;	
+	}
+	#footer1{
+		width:0;
+		display:none;
+		visibility: hidden;
+	}
+}

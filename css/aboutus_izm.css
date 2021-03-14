@@ -1,0 +1,28 @@
+@media (max-width: 1850px) and (min-width: 1000px){
+	div#main>div#blok1{
+		margin-left:3%;
+		margin-right:3%;
+	}
+	div#main>div#blok1>img{
+		width:50%;
+	}
+	div#main{
+		width:94%;
+	}
+}
+
+@media (max-width: 999px){
+	div#main>div#blok1{
+		margin-left:3%;
+		margin-right:3%;
+		padding-left:1%;
+		padding-right:1%;
+	}
+	div#main>div#blok1>img{
+		width:98%;
+	}
+	div#main{
+		width:94%;
+	}
+	
+}

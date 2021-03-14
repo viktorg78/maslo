@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|PT+Sans|Roboto+Slab|Ruslan+Display|Russo+One|Source+Sans+Pro&subset=cyrillic,cyrillic-ext');
+/*
+font-family: 'PT Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Russo One', sans-serif;
+font-family: 'Ruslan Display', cursive;
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body, html {
+	padding: 0 5%;
+	width: 90%;
+	height: 100%;
+}
+body {
+	background-color: #fff;	
+}
+a{
+	color:#fff;
+	text-decoration: none;
+	transition: all.6s ease;
+	-ms-transition: all.6s ease;
+	-o-transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-webkit-transition: all.6s ease;
+	outline: none;
+}
+a:hover {
+	color:#CF4949;
+	text-decoration: none;
+	transition: all.3s ease;
+	-ms-transition: all.3s ease;
+	-o-transition: all.3s ease;
+	-moz-transition: all.3s ease;
+	-webkit-transition: all.3s ease;
+}
+img{
+	max-width: 100%;
+	height: : auto;
+	width: auto\9;
+	transition: all.6s ease-out;
+	-ms-transition: all.6s ease-out;
+	-o-transition: all.6s ease-out;
+	-moz-transition: all.6s ease-out;
+	-webkit-transition: all.6s ease-out;
+}
+hr{
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #B5BDD0;
+	margin:0;
+	padding: 0;
+}
+header{
+	float: left;
+	width: 100%;
+}
+
+header>div#hapka{
+	float:left;
+	width:100%;
+}
+header>div#hapka>div#hapka1{
+	float:left;
+	width:26%;
+}
+header>div#hapka>div#hapka2{
+	float:left;
+	width:54%;
+}
+header>div#hapka>div#hapka3{
+	float:left;
+	width:20%;
+}
+header>div#hapka>div#hapka1>img{
+	width: 60px;
+	float: left;
+	border: none;
+	padding:2px 5px;
+}
+header>div#hapka>div#hapka1>div#logo1{
+	float:left;
+	font-family: 'Russo One', sans-serif;
+	font-size:3em;
+	color:#1f211b;
+	padding-top:10px;
+	letter-spacing: 5px;
+}
+header>div#hapka>div#hapka1>div#logo1>p{
+	float:left;
+	font-family: 'Montserrat', sans-serif;
+	font-size:0.4em;
+	color:#1f211b;
+	letter-spacing: 0;
+}
+header>div#hapka>div#hapka2>div#tell{
+	width:100%;	
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	color:#b1c918;
+	font-size:1.7em;
+	padding-top: 20px;
+}
+header>div#hapka>div#hapka2>div#tell>span{
+	font-size:0.9em;	
+	color:#1f211b;
+}
+
+header>div#hapka>div#hapka3>div#e_mail{
+	width:100%;	
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	color:#b1c918;
+	font-size:1.6em;
+	padding-top: 10px;
+	
+}
+header>div#hapka>div#hapka3>div#e_mail>a{
+	font-size:0.9em;	
+	color:#1f211b;
+	outline: none;
+}
+header>div#hapka>div#hapka3>div#e_mail>span{
+	font-size:0.7em;	
+	color:#1f211b;
+}
+
+
+#nkorz{
+	float:left;
+	background-color:red;
+	color:#fff;
+	border-radius:50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-khtml-border-radius: 50%;
+	padding:1px 4px;
+	font-size:0.5em;
+	margin:1px;
+}
+
+
+
+#reg_auth>a{
+	color: #fff;
+}
+#reg_auth>a:hover>.btn{
+	border-bottom: 2px solid #556A97;
+	margin-top: 7px;
+	}
+#reg_auth>a:active>.btn{
+	border-bottom: 0px solid #556A97;
+	margin-top: 9px;
+	}	
+#reg_auth>a>.btn{
+	float: right;
+	margin-right: 3%;
+	margin-top: 5px;
+	border-radius: 5px;
+	padding: 5px 9px;
+	font-size: 1.2em;
+	background-color: #60749F;
+	text-shadow: #454545 0 0 2px;
+	border-bottom: 4px  solid #556A97;
+	font-family: 'PT Sans', serif;
+}
+#wrapper{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+#content{
+	flex: 1 0 auto;
+}
+nav{
+	background-color: #b1c918;
+	width: 100%;
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+}
+#HaidMenu{
+	display: inline;
+}
+#MenuShou{
+	display: inline;
+	font-size: 1.4em;
+	margin-left: 20px;
+	float: left;
+	margin-top: 4px;
+	cursor: pointer;
+	color: #60749F;
+}
+#MobilMenu{
+	display: none;
+	width: 100%;
+	float: left;
+}
+.knopka{
+	float:left;
+	padding: 15px 10px;
+	background: #b1c918; /* Для браузеров, которые не поддерживают градиенты */
+	background: -webkit-linear-gradient(bottom right, #b1c918, #999900); /* Для Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(bottom right, #b1c918, #999900); /* Для Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(bottom right, #b1c918, #999900); /* Для Firefox 3.6 - 15 */
+	background: linear-gradient(bottom right, #b1c918, #999900); /* Стандартный синтаксис */
+	color:#1f211b;
+	font-size: 1.3em;
+	outline: none; /* убирать контур в Mozilla */
+	user-select: none; /* убирать выделение текста */
+	text-decoration: none; /* убирать подчёркивание у ссылок */
+	font-weight:500px;	
+}
+
+.knopka:hover { 
+	color:#1f211b;
+	background: #b1c918; /* Для браузеров, которые не поддерживают градиенты */
+	background: -webkit-linear-gradient(top left, #b1c918, #99c900); /* Для Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(top left, #b1c918, #99c900); /* Для Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(top left, #b1c918, #99c900); /* Для Firefox 3.6 - 15 */
+	background: linear-gradient(top left, #b1c918, #99c900); /* Стандартный синтаксис */
+} 
+
+footer{
+	float: left;
+	background-color: #1f211b;
+	width: 100%;
+	font-family: 'PT Sans', serif;
+	color:#fff;
+}
+footer>div#footer1{
+	float:left;
+	padding:0.5% 1%;
+	font-size:1.2em;
+}
+
+footer>div#footer2{
+	float: right;
+	padding:0.5% 1%;
+	font-size:0.9em;
+}
+footer>div#footer2>span{
+	color: #b1c918;
+}
+
+div#main{
+	float:left;
+	background-color:#fff;
+	width:100%;
+	padding:1% 0;
+}
+#tallk{
+	float: right;
+	background-color:#b1c918;
+	padding:6px;
+	margin:10px;
+	border: 2px  solid #1f211b;
+	border-radius: 10px;
+	cursor:pointer;
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+#vihod{
+	color:#1f211b;
+}

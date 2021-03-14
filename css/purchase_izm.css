@@ -1,0 +1,29 @@
+@media (max-width: 890px) and (min-width: 660px){
+	.fihka{	
+	width:45.5%;
+	
+	}
+}
+@media (max-width: 659px) and (min-width: 402px){
+	.fihka{	
+	width:95.5%;	
+	}
+	.fihka>span{	
+	font-size:2em;
+	}
+}
+
+@media (max-width: 401px){
+	.fihka{	
+	width:95.5%;	
+	}
+	.fihka>span{	
+	font-size:1.7em;
+	}
+	div#main>div#blok1>#bel1>h1{
+	font-size:1.5em;
+	}
+	div#main>div#blok1>#bel1{
+	font-size:0.8em;
+	}
+}

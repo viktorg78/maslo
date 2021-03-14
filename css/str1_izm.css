@@ -1,0 +1,50 @@
+@media (max-width: 1477px) and (min-width: 1025px){
+	td{
+		font-size:0.9em;
+	}
+}
+
+@media (max-width: 1024px) and (min-width: 810px){
+	th{
+		font-size:0.9em;
+	}
+	td{
+		font-size:0.8em;
+	}
+	
+}
+
+@media (max-width: 809px) and (min-width: 700px){
+	th{
+		font-size:0.7em;
+	}
+	td{
+		font-size:0.7em;
+	}
+	td>img{
+		width:98%;
+	}
+	.vd3{
+	width:0;
+	display:none;
+	visibility: hidden;	
+	}
+}
+
+@media (max-width: 699px){
+	th{
+		font-size:0.7em;
+	}
+	td{
+		font-size:0.7em;
+	}
+	td>img{
+		width:98%;
+	}
+	
+	.vd2, .vd3{
+	width:0;
+	display:none;
+	visibility: hidden;	
+	}
+}

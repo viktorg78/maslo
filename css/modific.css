@@ -1,0 +1,12 @@
+@media (min-width: 891px){
+	#MenuShou{
+		display: none;
+		visibility: hidden;
+	}
+}
+@media (max-width: 890px){
+	#HaidMenu{
+		display: none;
+		visibility: hidden;
+	}
+}

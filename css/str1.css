@@ -1,0 +1,62 @@
+div#main>div#blok1{
+	float:left;
+	width:100%;
+	background-color:whitesmoke;
+	height:100%;
+}
+td>img{
+	width:45%;	
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+	float: right;
+}
+td>span{
+	font-size:1.2em;
+	font-family: 'Roboto Slab', serif;
+}
+th>h3{
+	font-size:1.2em;
+	font-family: 'Roboto Slab', serif;
+}
+.knopka2{
+	float: center;
+	margin-right: 3%;
+	margin-top: 5px;
+	border-radius: 10px;
+	padding: 5px 9px;
+	font-size: 1.2em;
+	background-color: #b1c918;
+	text-shadow: #454545 0 0 2px;
+	border-bottom: 4px  solid #b1c000;
+	font-family: 'PT Sans', serif;
+}
+
+.knopka2:hover { 
+	color:#99c900;
+	border-bottom: 2px solid #b1c000;
+	margin-top: 7px;
+} 
+
+.knopka2:active{
+	color:#99c900;
+	border-bottom: 0px solid #b1c000;
+	margin-top: 9px;
+}
+
+table{
+width:100%;
+border-collapse: collapse;
+border-top: 7px solid #b1c918;
+/*border-bottom: 7px solid #b1c918;*/
+table-layout: fixed;
+}
+th, td{
+	width:100%;
+	
+	padding: 2px 5px;
+	vertical-align: top;
+}
+td{
+	font-family: 'Roboto Slab', serif;
+}	
